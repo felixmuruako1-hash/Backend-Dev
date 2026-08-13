@@ -1,0 +1,33 @@
+{
+  "name": "backend-dev",
+  "version": "1.0.0",
+  "description": "I'm learning introduction to backend development",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixmuruako1-hash/MS-ACADEMY.git"
+  },
+  "author": "Chikamso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felixmuruako1-hash/MS-ACADEMY/issues"
+  },
+  "homepage": "https://github.com/felixmuruako1-hash/MS-ACADEMY#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^6.21.0",
+    "mongoose": "^8.24.2",
+    "pwd": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
